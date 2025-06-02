@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+
+header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: -1vw;
+    padding: 0vmin 5vmin;
+
+}
+
+header img {
+    margin-top: 1vh;
+}
+
+i {
+    color: white;
+    font-size: 2vh;
+}
+.menu {
+    display: flex;
+    gap: 5vmin;
+    list-style: none;
+    margin-top: 1vh;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+}
+
+.logoSite {
+    width: 5vw;
+}
+
+.logoRedes {
+    width: 6vw;
+}
+
+.texto {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20vh;
+    margin-inline: 8vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subtitulo {
+   font-size: 1.7rem;
+   margin-bottom: -1vh;
+}
+
+.titulo {
+    font-size: 7rem;
+}
+
+.buttom {
+    margin: 1vmin;
+    margin-left: 33vw;
+    margin-right: 33vw;
+    padding: 1vh;
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    color: black;
+    cursor: pointer;
+}
+
+ @media (max-width: 768px) {
+            header {
+                padding: 1vh 2vw;
+            }
+
+            .menu {
+                margin-top: -1vw;
+                gap: 2vw;
+            }
+
+            .menu li a {
+                font-size: 1.7vw;
+            }
+
+            .titulo {
+                font-size: 4rem;
+            }
+
+            .subtitulo {
+                font-size: 1.2rem;
+            }
+
+            .logoSite {
+                margin-top: -1vw;
+                width: 6vh;
+            }
+            
+            .logoRedes {
+                margin-top: -1vw;
+                width: 7vh;
+            }
+
+            .buttom {
+                margin-left: 25vw;
+                margin-right: 25vw;
+                font-size: 0.85rem;
+            }
+        }
