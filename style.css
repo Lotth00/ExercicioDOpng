@@ -34,6 +34,7 @@ i {
     color: white;
     font-size: 2vh;
 }
+
 .menu {
     display: flex;
     gap: 5vmin;
@@ -90,16 +91,21 @@ i {
 
  @media (max-width: 768px) {
             header {
-                padding: 1vh 2vw;
+                margin-top: 1vmin;
+                padding: 0 3vmin;
             }
 
             .menu {
-                margin-top: -1vw;
+                margin-top: -1vh;
                 gap: 2vw;
             }
 
             .menu li a {
-                font-size: 1.7vw;
+                font-size: 2vmin;
+            }
+
+            i {
+                font-size: 1.2vmin;
             }
 
             .titulo {
